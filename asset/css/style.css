@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2 ,30% 70%);
+    width: 100%;
+}
+.container > .content_left{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #01497c;
+
+}
+.container > .content_right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: #bc0725; */
+
+}
+.container > .content_right >.content,.container > .content_left >.content{
+    width: 90%;
+}
